@@ -8,7 +8,7 @@ import dashboard
 
 # Web scraping for jobs
 driver = scraping.get_driver()
-scraping.linkedin_login(driver, 'ankitrijal432@gmail.com', '@nkiT9704')
+scraping.linkedin_login(driver, 'username', 'password')
 jobs_df = scraping.scrape_linkedin_jobs(driver, 'Computer Science intern', 'Remote')
 
 # Resume parsing

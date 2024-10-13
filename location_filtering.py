@@ -4,7 +4,7 @@ import plotly.express as px
 import pandas as pd
 
 # Initialize Google Maps API client
-gmaps = googlemaps.Client(key='AIzaSyBNL8-iWGtMaiwMAY5I11bkHjkpZoXb6lU')
+gmaps = googlemaps.Client(key='API KEY')
 
 # Function to get coordinates (latitude, longitude) for a location
 def get_coordinates(location):
