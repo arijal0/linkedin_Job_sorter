@@ -1,0 +1,9 @@
+beautifulsoup4
+selenium
+pandas
+scikit-learn
+PyPDF2
+python-docx
+googlemaps
+dash
+plotly
